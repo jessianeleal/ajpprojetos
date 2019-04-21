@@ -1,0 +1,142 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(73, 64, 64);
+}
+
+h2 {
+    background: -webkit-linear-gradient(rgba(48,77,85,1), rgba(2,110,138,1), rgba(1,145,197,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+   
+}
+
+.nav__ajp {
+    background: rgb(48,77,85);
+    background: -moz-linear-gradient(180deg, rgba(48,77,85,1) 0%, rgba(2,110,138,1) 49%, rgba(1,145,197,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(48,77,85,1) 0%, rgba(2,110,138,1) 49%, rgba(1,145,197,1) 100%);
+    background: linear-gradient(180deg, rgba(48,77,85,1) 0%, rgba(2,110,138,1) 49%, rgba(1,145,197,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#304d55",endColorstr="#0191c5",GradientType=1);
+}
+
+.logo__ajp {
+    width: 30%;
+}
+
+.logo__ajp img {
+    width: 38%;
+}
+
+.menu__ajp a {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.banner__ajp img {
+    opacity: 0.5;
+    height: 39rem;
+}
+
+.banner-title__ajp {
+    padding-top: 4rem;
+    text-align: left;
+    right: 40%;
+    bottom: 120px;
+    left: 10%;  
+    width: 60%;
+}
+
+.banner-title__ajp h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgba(48,77,85,1), rgba(2,110,138,1), rgba(1,145,197,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quemsomos__ajp p{
+    text-align: left !important;
+}
+
+.servicos__ajp, .card_ajp {
+    background: #d2e1e4;
+    margin-top: 25px;
+}
+
+.card_ajp p {
+    text-align: left !important;
+}
+
+.servicos__ajp img {
+    height: 14rem;
+    border-radius: 5px;
+}
+
+.gallery{
+    width: 70%;
+}
+
+.gallery__container{
+    color: #462755;
+    position: relative;
+}
+
+.gallery__image{
+    max-width: 100%;
+    width: 60rem;
+    height: 28rem;
+    border-radius: 10px;    
+}
+
+.gallery__nav{
+    text-align: center;
+}
+
+.gallery__nav-item{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.gallery__nav-item img{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.contato__ajp {
+    background: #d2e1e4;
+}
+
+
+
+.form__ajp h5, p {
+    text-align: center !important;
+}
+
+
+textarea {
+    resize: none;
+}
+
+.error {
+    color: rgb(252, 5, 5);
+    font-weight: bold;
+    font-size: 12px; 
+}
