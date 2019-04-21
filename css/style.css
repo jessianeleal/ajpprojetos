@@ -4,6 +4,10 @@ body {
     color: rgb(73, 64, 64);
 }
 
+a, a:hover {
+    color: rgb(73, 64, 64);
+}
+
 h2 {
     background: -webkit-linear-gradient(rgba(48,77,85,1), rgba(2,110,138,1), rgba(1,145,197,1));
     -webkit-background-clip: text;
