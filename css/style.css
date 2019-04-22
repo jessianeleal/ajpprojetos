@@ -38,12 +38,12 @@ h5 {
 }
 
 .logo__ajp img {
-    width: 38%;
+    width: 46%;
 }
 
 .menu__ajp a {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: bold;
     color: #ffffff !important;
 }
@@ -72,6 +72,10 @@ h5 {
 
 .quemsomos__ajp p{
     text-align: left !important;
+}
+
+.quemsomos__ajp span{
+    color: blue;
 }
 
 .servicos__ajp, .card_ajp {
@@ -118,8 +122,8 @@ h5 {
     color: inherit;
     text-decoration: none;
     display: inline-block;
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     margin: 8px;
 }
@@ -145,6 +149,20 @@ textarea {
     font-size: 12px; 
 }
 
+.copy__ajp {
+    background: rgb(48,77,85);
+    background: -moz-linear-gradient(180deg, rgba(48,77,85,1) 0%, rgba(2,110,138,1) 49%, rgba(1,145,197,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(48,77,85,1) 0%, rgba(2,110,138,1) 49%, rgba(1,145,197,1) 100%);
+    background: linear-gradient(180deg, rgba(48,77,85,1) 0%, rgba(2,110,138,1) 49%, rgba(1,145,197,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#304d55",endColorstr="#0191c5",GradientType=1);
+}
+
+.copy__ajp p {
+    font-size: 0.7rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 @media (max-width: 425px) 
 {
     .banner-title__ajp h1 {
@@ -163,5 +181,9 @@ textarea {
     .banner__ajp img {
         opacity: 0.5;
         height: 30rem;
+    }
+
+    .copy__ajp p {
+        font-size: 0.6rem;
     }
 }

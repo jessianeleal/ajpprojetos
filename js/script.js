@@ -11,8 +11,6 @@ for (let i = 0; i < links.children.length; i++){
         const img = this.dataset.image;
         image.src = img;
         
-        const text = this.dataset.title;
-        figcaption.innerHTML = text;
     })
 }
 
