@@ -104,8 +104,8 @@ h5 {
 
 .gallery__image{
     max-width: 100%;
-    width: 60rem;
-    height: 28rem;
+    width: 45rem;
+    height: 35rem;
     border-radius: 10px;    
 }
 
@@ -182,8 +182,14 @@ textarea {
         opacity: 0.5;
         height: 30rem;
     }
+    
+    .gallery__image{
+        width: 30rem;
+        height: 20rem;  
+    }
 
     .copy__ajp p {
         font-size: 0.6rem;
     }
+
 }
