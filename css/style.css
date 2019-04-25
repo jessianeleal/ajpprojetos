@@ -163,6 +163,29 @@ textarea {
     font-weight: bold;
 }
 
+.fundo__ajp {
+    background: rgba(2,110,138,1);
+}
+
+.alert__ajp {
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #d2e1e4;
+    padding: 5%;
+    margin-top: 15%;
+    border-radius: 10px; 
+}
+
+.alert__ajp p {
+    font-weight: bold;
+}
+
+.alert__ajp a {
+    color: rgba(2,110,138,1);
+}
+
 @media (max-width: 425px) 
 {
     .banner-title__ajp h1 {
@@ -190,6 +213,14 @@ textarea {
 
     .copy__ajp p {
         font-size: 0.6rem;
+    }
+
+    .alert__ajp {
+        width: 70%;
+        padding: 10%;
+        margin-top: 33%;
+        border-radius: 10px; 
+    
     }
 
 }
